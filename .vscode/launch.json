@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'baka-button'",
+            "name": "Debug executable 'baka'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=baka-button",
-                    "--package=baka-button"
+                    "--bin=baka",
+                    "--package=baka"
                 ],
                 "filter": {
-                    "name": "baka-button",
+                    "name": "baka",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'baka-button'",
+            "name": "Debug unit tests in executable 'baka'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=baka-button",
-                    "--package=baka-button"
+                    "--bin=baka",
+                    "--package=baka"
                 ],
                 "filter": {
-                    "name": "baka-button",
+                    "name": "baka",
                     "kind": "bin"
                 }
             },
